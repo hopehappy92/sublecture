@@ -88,7 +88,6 @@ N = int(input())
 # word = ''
 alp = ord("A")
 for i in range(N,0,-1):
-    a = ''
     for j in range(i):
         print(chr(alp), end='')
         alp += 1
